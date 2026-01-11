@@ -111,18 +111,31 @@ Search & list students
 All data persists in your configured database via Hibernate.
 
 🗂 Project Structure (Recommended)
+
 Student-Management-System/
+
 ├─ src/main/java/
+
 │  ├─ com/yourname/app/
+
 │  │  ├─ ui/                   # Swing GUI frames
+
 │  │  ├─ model/                # Entity classes
+
 │  │  ├─ dao/                  # Data access with Hibernate
+
 │  │  └─ util/                 # Hibernate utils
+
 ├─ src/main/resources/
+
 │  └─ hibernate.cfg.xml        # Hibernate config
+
 ├─ pom.xml                     # Maven config
+
 ├─ .gitignore
+
 └─ README.md
+
 
 📊 Database Schema
 Table	Purpose
